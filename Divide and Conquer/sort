@@ -1,0 +1,9 @@
+#!/usr/bin/python
+
+from sys import argv
+
+script, file_name = argv
+
+print "Your file name is %r\n" % file_name
+
+print open(file_name).read()
